@@ -1,0 +1,99 @@
+/*
+Theme Name: Marines Child
+Layout: Content-Sidebar
+Template: marines
+Description: Tis theme is for the Organisation Marine Gifts.
+*/
+
+
+.site-main {
+	margin: 0 0 0 0;
+	background-color: rgba(0,0,255,0.5);
+	width: 100%;
+}
+
+.content-area {
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	text-align: center;
+	background-color: rgba(0,255,0,0.2);
+
+}
+
+.site-content {
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	text-align: center;
+	background-color: rgba(0,255,0,0.2);
+
+}
+
+.site-content .widget-area {
+	float: right;
+	overflow: hidden;
+	width: 25%;
+	background-color: blue;
+}
+
+.site-footer {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	width: 60%;
+	margin: auto auto 0 0;
+	background-color: rgba(50, 70, 80, 0.3);
+}
+
+.main-navigation {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	background-color: rgba(255,0,0,0.3);
+}
+
+/*
+ * Header
+ */
+
+
+.site-header {
+	position: relative;
+}
+
+.site-header .home-link {
+	color: #141412;
+	display: block;
+	margin: 0 auto;
+	max-width: 1080px;
+	min-height: 230px;
+	padding: 0 20px;
+	text-decoration: none;
+	width: 100%;
+}
+
+.site-header .site-title:hover {
+	text-decoration: underline;
+}
+
+.site-title {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0;
+	padding: 58px 0 10px;
+	margin-top: -150px;
+}
+
+.site-description {
+	font: 300 italic 24px "Source Sans Pro", Helvetica, sans-serif;
+	margin: 0;
+}
+
+.main-navigation {
+	margin-top: 100px;
+}
+

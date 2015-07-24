@@ -1,0 +1,117 @@
+/*
+Theme Name: Marines Welcome
+Template: underscores
+Theme URI: 
+Author: Dang
+Author URI:
+Description: Simple two column static front page for Marine Gifts.
+License: GNU General Public License
+License URI: license.txt
+Tags: blue
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+/*
+ * HTML, Body and else
+ */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+ * Head Area
+ */
+
+.site-header {
+	position: relative;
+	max-width: 1000px;
+	min-height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.site-header:hover .site-title {
+	text-decoration: underline;
+}
+
+.site-branding .site-title {
+	margin-top: -150px;
+	margin-left: 100px;
+}
+
+.site-title a {
+	text-decoration: none;
+	color: blue;
+	
+}
+
+.site-title a:hover {
+	text-decoration: underline;
+}
+
+.site-branding .site-description {
+	margin-left: 100px;
+	color: blue;
+}
+
+#site-navigation {
+	display: none;
+}
+
+
+/*
+ * Content Area
+ */
+
+.content-area {
+	max-width: 1000px;
+	margin: 0 auto 0 auto;
+	width: 100%;
+	text-align: center;
+}
+.site-main {
+	margin: -5% 0 0 0;
+}
+.site-content .widget-area {
+	display: none;
+}
+
+.site-main a {
+	color: white;
+	text-decoration: none;
+}
+
+.site-main a:hover {
+	//text-decoration: underline;
+	color: black;
+}
+
+
+/*
+ * Footer
+ */
+
+.site-footer {
+	max-width: 1000px;
+	margin: 0 auto 0 auto;
+	//clear: both;
+	width: 100%;
+
+}
+
+.site-footer .site-info {
+	text-align: center;
+}
+
+.site-footer .site-info a:hover{
+	text-decoration: underline;
+}
+
+.site-footer .site-info a, .site-footer .site-info a:visited{
+	color: #ab2367;
+	text-decoration: none;
+}
+
